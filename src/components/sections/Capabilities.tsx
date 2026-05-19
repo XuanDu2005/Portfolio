@@ -29,8 +29,8 @@ export function Capabilities() {
         <SectionHeading
           index="01"
           label="capabilities"
-          title="Kỹ năng Backend"
-          description="Các lĩnh vực tôi tập trung phát triển khi xây dựng hệ thống phía server."
+          title="Skill & Tool"
+          description="Các kỹ năng và ngôn ngữ lập trình mà tôi đã sử dụng trong các dự án của mình."
         />
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

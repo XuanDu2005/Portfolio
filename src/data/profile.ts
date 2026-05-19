@@ -24,22 +24,18 @@ export const profile: Profile = {
   name: "Cao Xuan Du",
   title: "Developer Intern",
   badge: "CXD · DEVELOPER",
-  tagline:
-    "Information Technology · Focused on APIs, databases & scalable architecture",
+  tagline: "Information Technology",
   typingPhrases: [
-    "Passionate about clean code & system design.",
+    "A student at University of Transport Ho Chi Minh City (UTH)",
     "Building APIs with C#, TypeScript & PHP.",
-    "Healthcare tech — AURA Retinal Screening System.",
-    "Crafting experiences only on cxd.dev.",
   ],
-  focusLine:
-    "Information Technology · APIs · Databases · Scalable Architecture",
-  email: "IT-JuanDoo@users.noreply.github.com",
+  focusLine: "Information Technology",
+  email: "ducx5494@ut.edu.vn",
   socials: [
     { label: "GitHub", href: GITHUB_URL, icon: "github" },
     {
       label: "Email",
-      href: "mailto:IT-JuanDoo@users.noreply.github.com",
+      href: "mailto:ducx5494@ut.edu.vn",
       icon: "email",
     },
   ],

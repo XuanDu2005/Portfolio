@@ -2,12 +2,12 @@ import type { Capability } from "@/types";
 
 export const capabilities: Capability[] = [
   {
-    id: "api",
-    title: "RESTful APIs",
+    id: "frontend",
+    title: "Frontend Development",
     description:
       "Thiết kế và triển khai API rõ ràng, có versioning, validation và tài liệu OpenAPI/Swagger.",
-    icon: "api",
-    tags: ["ASP.NET Core", "Express", "Swagger"],
+    icon: "frontend",
+    tags: ["Html", "Css", "JavaScript", "TypeScript"],
   },
   {
     id: "database",
