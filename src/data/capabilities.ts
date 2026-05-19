@@ -18,28 +18,12 @@ export const capabilities: Capability[] = [
     tags: ["PostgreSQL", "MySQL", "MongoDB"],
   },
   {
-    id: "auth",
-    title: "Authentication",
+    id: "backend",
+    title: "Backend Development",
     description:
-      "JWT, refresh token, role-based access và các pattern bảo mật phổ biến cho backend.",
-    icon: "auth",
-    tags: ["JWT", "OAuth2", "RBAC"],
-  },
-  {
-    id: "architecture",
-    title: "System Design",
-    description:
-      "Layered architecture, dependency injection, caching và chuẩn bị cho mở rộng theo module.",
-    icon: "architecture",
-    tags: ["Clean Architecture", "DDD", "Redis"],
-  },
-  {
-    id: "devops",
-    title: "DevOps Basics",
-    description:
-      "Docker, CI/CD cơ bản và triển khai lên cloud để đưa sản phẩm lên production.",
-    icon: "devops",
-    tags: ["Docker", "GitHub Actions", "Vercel"],
+      "Xây dựng và duy trì các dịch vụ backend hiệu suất cao, có khả năng mở rộng và bảo mật.",
+    icon: "backend",
+    tags: ["C#", "Python", "PHP"],
   },
   {
     id: "testing",
@@ -47,6 +31,6 @@ export const capabilities: Capability[] = [
     description:
       "Unit test, integration test và đảm bảo chất lượng code trước khi merge.",
     icon: "testing",
-    tags: ["xUnit", "Jest", "Postman"],
+    tags: ["Postman"],
   },
 ];
