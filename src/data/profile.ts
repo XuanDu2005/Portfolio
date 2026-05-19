@@ -5,7 +5,7 @@ export const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`;
 
 export const siteConfig = {
   name: "CXD.DEV",
-  handle: "cao xuân dự",
+  handle: "Cao Xuan Du",
   monogram: "CXD",
   description:
     "Portfolio cá nhân của Cao Xuân Dự — Backend, APIs, databases & scalable architecture",
@@ -21,10 +21,9 @@ export const navLinks: NavLink[] = [
 ];
 
 export const profile: Profile = {
-  name: "Cao Xuân Dự",
-  nameHighlight: "Dự",
-  title: "Backend Developer Intern",
-  badge: "CXD · BACKEND ENGINEER",
+  name: "Cao Xuan Du",
+  title: "Developer Intern",
+  badge: "CXD · DEVELOPER",
   tagline:
     "Information Technology · Focused on APIs, databases & scalable architecture",
   typingPhrases: [

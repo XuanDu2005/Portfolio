@@ -45,6 +45,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    white-space: nowrap;
+    line-height: 1.1;
   }
 
   .border-gradient {

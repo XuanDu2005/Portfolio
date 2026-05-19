@@ -22,7 +22,7 @@ function splitName(fullName: string, highlight?: string) {
 }
 
 export function Hero() {
-  const { prefix, suffix } = splitName(profile.name, profile.nameHighlight);
+  // Hiển thị tên trên một dòng
 
   return (
     <section
@@ -48,15 +48,10 @@ export function Hero() {
           <Badge>{profile.badge}</Badge>
 
           <h1 className="mt-6 font-display text-4xl font-extrabold tracking-tight md:text-5xl lg:text-[3.5rem] lg:leading-[1.1]">
-            <span className="text-gradient-hero">{prefix}</span>
-            {suffix && (
-              <span className="text-gradient-brand"> {suffix}</span>
-            )}
+            <span className="text-gradient-hero">{profile.name}</span>
           </h1>
 
-          <p className="mt-4 text-lg text-accent md:text-xl">
-            {profile.title}
-          </p>
+          <p className="mt-4 text-lg text-accent md:text-xl">{profile.title}</p>
 
           <TypingText phrases={profile.typingPhrases} />
 
@@ -70,8 +65,8 @@ export function Hero() {
             </Button>
           </div>
 
-          <CornerFrame className="mt-10 inline-block px-4 py-3">
-            <p className="font-mono text-xs text-muted md:text-sm">
+          <CornerFrame className="mt-10 inline-block px-8 py-6">
+            <p className="font-mono text-base text-muted md:text-lg">
               <span className="text-accent">~</span> {profile.focusLine}
             </p>
           </CornerFrame>
