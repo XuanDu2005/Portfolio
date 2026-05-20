@@ -12,8 +12,8 @@ export function Approach() {
         <SectionHeading
           index="03"
           label="approach"
-          title="Cách tiếp cận"
-          description="Quy trình làm việc khi nhận task hoặc xây dựng feature mới."
+          title="Approach"
+          description="The process of working when receiving tasks or building new features."
         />
 
         <div className="relative">
