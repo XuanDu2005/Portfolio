@@ -43,7 +43,7 @@ export function InteractiveCard() {
         onMouseLeave={handleLeave}
         style={{ rotateX, rotateY, transformPerspective: 1200 }}
         className={cn(
-          "glass-panel border-gradient relative h-72 w-full max-w-md cursor-pointer overflow-hidden rounded-2xl p-8 md:h-80",
+          "glass-panel border-gradient relative h-96 w-full max-w-2xl cursor-pointer overflow-hidden rounded-2xl p-10 md:h-[28rem]",
           active && "shadow-[0_0_80px_rgba(46,232,197,0.12)]",
         )}
       >
@@ -76,11 +76,17 @@ export function InteractiveCard() {
         <div className="absolute right-4 bottom-4 left-4 rounded-lg border border-white/5 bg-background/40 p-3 font-mono text-[10px] text-white/35 backdrop-blur-sm">
           <span className="text-accent">const</span> dev = {"{"}
           <br />
-          &nbsp;&nbsp;name: <span className="text-accent-warm/90">&quot;Cao Xuân Dự&quot;</span>,
+          &nbsp;&nbsp;name:{" "}
+          <span className="text-accent-warm/90">&quot;Cao Xuan Du&quot;</span>,
           <br />
-          &nbsp;&nbsp;alias: <span className="text-accent-2/90">&quot;{siteConfig.monogram}&quot;</span>,
+          &nbsp;&nbsp;alias:{" "}
+          <span className="text-accent-2/90">
+            &quot;{siteConfig.monogram}&quot;
+          </span>
+          ,
           <br />
-          &nbsp;&nbsp;stack: <span className="text-accent/90">&quot;backend&quot;</span>
+          &nbsp;&nbsp;stack:{" "}
+          <span className="text-accent/90">&quot;Devloper&quot;</span>
           <br />
           {"}"};
         </div>
