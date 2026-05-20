@@ -28,7 +28,7 @@ export function SectionHeading({
     >
       <div className="mb-4 flex items-center gap-4">
         {index && (
-          <span className="font-display text-3xl font-bold text-white/[0.06] md:text-4xl">
+          <span className="font-display text-3xl font-bold text-white md:text-4xl">
             {index}
           </span>
         )}
