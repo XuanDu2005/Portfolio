@@ -59,7 +59,7 @@ export function Hero() {
             <Button href="#projects" variant="primary">
               View Projects
             </Button>
-            <Button href={`mailto:${profile.email}`} variant="outline" external>
+            <Button href="#contact" variant="outline">
               <Mail size={16} />
               Contact Me
             </Button>
