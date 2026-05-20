@@ -24,8 +24,8 @@ export function Contact() {
         <SectionHeading
           index="05"
           label="contact"
-          title="Liên hệ"
-          description="Bạn có dự án, cơ hội thực tập hoặc muốn trao đổi? Hãy gửi tin nhắn."
+          title="Contact"
+          description="Do you have a project, internship opportunity, or want to discuss? Send me a message."
         />
 
         <div className="grid gap-10 lg:grid-cols-2">
@@ -36,10 +36,7 @@ export function Contact() {
             className="space-y-6"
           >
             {contactFields.map((field) => (
-              <div
-                key={field.label}
-                className="glass-panel rounded-xl p-5"
-              >
+              <div key={field.label} className="glass-panel rounded-xl p-5">
                 <p className="font-mono text-[10px] tracking-widest text-accent uppercase">
                   {field.label}
                 </p>
@@ -76,7 +73,10 @@ export function Contact() {
           >
             <div className="space-y-4">
               <div>
-                <label htmlFor="name" className="mb-1.5 block text-sm text-muted">
+                <label
+                  htmlFor="name"
+                  className="mb-1.5 block text-sm text-muted"
+                >
                   Họ tên
                 </label>
                 <input
@@ -88,7 +88,10 @@ export function Contact() {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="mb-1.5 block text-sm text-muted">
+                <label
+                  htmlFor="email"
+                  className="mb-1.5 block text-sm text-muted"
+                >
                   Email
                 </label>
                 <input

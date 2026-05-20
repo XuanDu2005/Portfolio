@@ -30,7 +30,7 @@ export function Capabilities() {
           index="01"
           label="capabilities"
           title="Skill & Tool"
-          description="Các kỹ năng và ngôn ngữ lập trình mà tôi đã sử dụng trong các dự án của mình."
+          description="The skills and programming languages ​​I have used in my projects."
         />
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
