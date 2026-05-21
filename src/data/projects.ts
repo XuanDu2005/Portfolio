@@ -31,13 +31,4 @@ export const projects: Project[] = [
     github: repo("CNPM-5"),
     featured: true,
   },
-  {
-    id: "portfolio",
-    title: "Portfolio",
-    description:
-      "Personal CV/portfolio website — built with Next.js, TypeScript, Tailwind CSS, and Framer Motion; data separated into files for easy updates.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: repo("Portfolio"),
-    featured: false,
-  },
 ];
