@@ -5,7 +5,7 @@ export const capabilities: Capability[] = [
     id: "frontend",
     title: "Frontend Development",
     description:
-      "Thiết kế và triển khai API rõ ràng, có versioning, validation và tài liệu OpenAPI/Swagger.",
+      "Design and implement clear APIs with versioning, validation, and OpenAPI/Swagger documentation.",
     icon: "frontend",
     tags: ["Html", "Css", "JavaScript", "TypeScript"],
   },
@@ -13,7 +13,7 @@ export const capabilities: Capability[] = [
     id: "database",
     title: "Databases",
     description:
-      "Mô hình hóa dữ liệu, tối ưu truy vấn, migration và quan hệ giữa SQL và NoSQL.",
+      "Data modeling, query optimization, migration, and relationships between SQL and NoSQL.",
     icon: "database",
     tags: ["PostgreSQL", "MySQL", "MongoDB"],
   },
@@ -21,7 +21,7 @@ export const capabilities: Capability[] = [
     id: "backend",
     title: "Backend Development",
     description:
-      "Xây dựng và duy trì các dịch vụ backend hiệu suất cao, có khả năng mở rộng và bảo mật.",
+      "Design and maintain high-performance backend services with scalability and security.",
     icon: "backend",
     tags: ["C#", "Python", "PHP"],
   },
@@ -29,7 +29,7 @@ export const capabilities: Capability[] = [
     id: "testing",
     title: "Testing",
     description:
-      "Unit test, integration test và đảm bảo chất lượng code trước khi merge.",
+      "Unit test, integration test and ensure code quality before merging.",
     icon: "testing",
     tags: ["Postman"],
   },
