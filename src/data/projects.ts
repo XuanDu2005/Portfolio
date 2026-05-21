@@ -8,7 +8,7 @@ export const projects: Project[] = [
     id: "aura-retinal",
     title: "AURA — Retinal Screening System",
     description:
-      "Hệ thống sàng lọc võng mạc (Retinal Screening): full-stack với backend C#, frontend TypeScript và tích hợp Python/Docker cho pipeline xử lý ảnh y khoa.",
+      "Retinal Screening System: a full-stack project with a C# backend, TypeScript frontend, and Python/Docker integration for the medical image processing pipeline.",
     tags: ["TypeScript", "C#", "Python", "Docker"],
     github: repo("AURA-Retinal-Screening-System"),
     featured: true,
@@ -17,7 +17,7 @@ export const projects: Project[] = [
     id: "bookings-tickets",
     title: "BookingsTickets",
     description:
-      "Website đặt vé xem phim — quản lý suất chiếu, ghế ngồi và luồng booking cho người dùng, xây dựng chủ yếu với PHP và JavaScript.",
+      "Movie ticket booking website — manages showtimes, seating, and user booking flows, primarily built with PHP and JavaScript.",
     tags: ["PHP", "JavaScript", "CSS", "MySQL"],
     github: repo("BookingsTickets"),
     featured: true,
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     id: "cnpm-5",
     title: "CNPM-5",
     description:
-      "Dự án môn Công nghệ Phần mềm (nhóm 5): ứng dụng web Django (Python), quản lý podcast — chạy local qua Docker.",
+      "Software Engineering Project (Group 5): Django (Python) web application for podcast management — runs locally via Docker.",
     tags: ["Python", "Django", "Docker", "HTML", "CSS"],
     github: repo("CNPM-5"),
     featured: true,
@@ -35,7 +35,7 @@ export const projects: Project[] = [
     id: "portfolio",
     title: "Portfolio",
     description:
-      "Website CV/portfolio cá nhân — Next.js, TypeScript, Tailwind CSS và Framer Motion; dữ liệu tách file để cập nhật dễ dàng.",
+      "Personal CV/portfolio website — built with Next.js, TypeScript, Tailwind CSS, and Framer Motion; data separated into files for easy updates.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     github: repo("Portfolio"),
     featured: false,

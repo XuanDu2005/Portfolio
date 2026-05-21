@@ -17,20 +17,25 @@ export function Projects() {
         <SectionHeading
           index="02"
           label="projects"
-          title="Dự án nổi bật"
-          description="Các dự án backend tôi đã xây dựng để thực hành và thể hiện kỹ năng."
+          title="Featured Projects"
+          description="Backend projects I have built to practice and demonstrate my skills."
         />
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {featured.map((project, index) => (
-            <ProjectCard key={project.id} project={project} index={index} featured />
+            <ProjectCard
+              key={project.id}
+              project={project}
+              index={index}
+              featured
+            />
           ))}
         </div>
 
         {others.length > 0 && (
           <>
             <h3 className="mt-16 mb-6 font-mono text-xs tracking-widest text-muted uppercase">
-              Khác
+              Other Projects
             </h3>
             <div className="grid gap-6 md:grid-cols-2">
               {others.map((project, index) => (
