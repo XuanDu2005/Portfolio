@@ -12,8 +12,8 @@ export function Experience() {
         <SectionHeading
           index="04"
           label="experience"
-          title="Kinh nghiệm & Học vấn"
-          description="Hành trình học tập và làm việc trong lĩnh vực backend development."
+          title="Experience & Education"
+          description="My journey in learning and working in the field of backend development."
         />
 
         <div className="space-y-6">
@@ -33,7 +33,9 @@ export function Experience() {
                   </h3>
                   <p className="text-accent">{exp.company}</p>
                 </div>
-                <span className="font-mono text-xs text-muted">{exp.period}</span>
+                <span className="font-mono text-xs text-muted">
+                  {exp.period}
+                </span>
               </div>
 
               <ul className="mt-4 space-y-2">

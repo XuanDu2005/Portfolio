@@ -2,14 +2,14 @@ import type { ExperienceItem } from "@/types";
 
 export const experiences: ExperienceItem[] = [
   {
-    id: "intern-2025",
-    role: "Backend Developer Intern",
-    company: "Công ty Công nghệ (Cập nhật)",
-    period: "2025 — Hiện tại",
+    id: "intern-2023",
+    role: "Developer Intern",
+    company: "UTH",
+    period: "2025 — nay",
     description: [
-      "Phát triển và bảo trì REST API cho sản phẩm nội bộ.",
-      "Viết unit test, tham gia code review và tài liệu hóa API.",
-      "Làm việc với PostgreSQL, Git và quy trình Agile/Scrum.",
+      "Developed and maintained REST APIs for internal products.",
+      "Wrote unit tests, participated in code reviews, and documented APIs",
+      "Worked with PostgreSQL, Git, and the Agile/Scrum development process.",
     ],
     technologies: ["C#", "ASP.NET Core", "PostgreSQL", "Git"],
   },
@@ -19,20 +19,20 @@ export const experiences: ExperienceItem[] = [
     company: "Self-directed",
     period: "2024 — 2025",
     description: [
-      "AURA Retinal Screening System — full-stack healthcare với C#, TypeScript, Python.",
-      "BookingsTickets — hệ thống đặt vé xem phim (PHP/JavaScript).",
-      "CNPM-5 — dự án môn Công nghệ Phần mềm, deploy GitHub Pages.",
+      "AURA Retinal Screening System — a full-stack healthcare project using C#, TypeScript, and Python.",
+      "BookingsTickets — a movie ticket booking system built with PHP and JavaScript.",
+      "CNPM-5 — a software engineering project, deployed on GitHub Pages.",
     ],
     technologies: ["C#", "TypeScript", "PHP", "Python", "Docker"],
   },
   {
     id: "education",
     role: "Information Technology",
-    company: "Đại học (Cập nhật)",
+    company: "UTH",
     period: "2022 — 2026",
     description: [
-      "Chuyên ngành Công nghệ Thông tin, tập trung phát triển phần mềm.",
-      "Các môn: Cấu trúc dữ liệu, Cơ sở dữ liệu, Lập trình hướng đối tượng.",
+      "Specializing in Software Engineering, focusing on backend development.",
+      "Key courses: Data Structures, Database Systems, Object-Oriented Programming.",
     ],
     technologies: ["Java", "SQL", "Algorithms"],
   },
